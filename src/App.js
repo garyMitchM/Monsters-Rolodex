@@ -62,7 +62,7 @@ class App extends Component {
             </div>
           );
         })} */}
-        <Cardlist />
+        <Cardlist monsters={filteredMonsters} />
       </div>
     );
   }
